@@ -1,10 +1,9 @@
-```markdown
+\```
 # 💡 Tip Prediction using Linear Regression
 
 This project demonstrates a basic machine learning workflow using **Linear Regression** to predict restaurant tips based on customer details such as total bill, gender, smoking status, day, time, and party size.
 
 ---
-
 ## 📁 Project Structure
 
 ```
@@ -12,11 +11,12 @@ This project demonstrates a basic machine learning workflow using **Linear Regre
 tip\_prediction\_project/
 ├── tip\_predictor.py       # Main Python script
 ├── tips.csv               # Dataset file
-├── README.md              # This file
+├── requirements.txt       # Dependencies
+├── README.md              # Project overview
 
-````
+```
 
-
+---
 
 ## 📊 Dataset
 
@@ -30,7 +30,7 @@ The dataset (`tips.csv`) contains restaurant bill information, including:
 - `time`: Lunch or Dinner
 - `size`: Party size (number of people)
 
-
+---
 
 ## 🔧 Features Used
 
@@ -64,35 +64,39 @@ The dataset (`tips.csv`) contains restaurant bill information, including:
 
 Make sure you have Python installed. You can install the required libraries with:
 
-```bash
-pip install pandas numpy scikit-learn matplotlib
-````
+```
+
+pip install -r requirements.txt
+
+```
 
 ### ▶️ Run the Script
 
 Navigate to the project folder and run:
 
-```bash
-python tip_predictor.py
 ```
 
-> 💡 Make sure `tips.csv` is in the same folder as your Python file.
+python tip\_predictor.py
+
+```
+
+> Make sure `tips.csv` is in the same folder as your Python file.
 
 ---
 
 ## 📈 Example Output
 
-* **Model R² Score**: `0.44` *(example)*
-* **Mean Squared Error**: `0.98` *(example)*
-* A scatter plot comparing actual vs predicted tips
+- Model R² Score: `0.44` *(example)*
+- Mean Squared Error: `0.98` *(example)*
+- A scatter plot comparing actual vs predicted tips
 
 ---
 
 ## 📌 Notes
 
-* The categorical data is encoded using **LabelEncoder**
-* Feature scaling is applied using **StandardScaler**
-* This is a basic ML regression project meant for learning purposes
+- The categorical data is encoded using **LabelEncoder**
+- Feature scaling is applied using **StandardScaler**
+- This is a basic ML regression project meant for learning purposes
 
 ---
 
@@ -104,8 +108,6 @@ This project is open-source and free to use under the MIT License.
 
 ## 👨‍💻 Author
 
-Made by **Kamyavardhan Dave**
+Made by **Kamyavardhan Dave**  
 Connect with me on [GitHub](https://github.com/theway-kamyavardhan) or [LinkedIn](https://www.linkedin.com/in/kamyavardhan)
-
 ```
-

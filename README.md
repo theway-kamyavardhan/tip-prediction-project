@@ -16,7 +16,7 @@ tip\_prediction\_project/
 
 ````
 
----
+
 
 ## 📊 Dataset
 
@@ -30,7 +30,7 @@ The dataset (`tips.csv`) contains restaurant bill information, including:
 - `time`: Lunch or Dinner
 - `size`: Party size (number of people)
 
----
+
 
 ## 🔧 Features Used
 

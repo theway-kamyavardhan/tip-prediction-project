@@ -31,6 +31,29 @@ The dataset (`tips.csv`) contains restaurant bill information, including:
 - `size`: Party size (number of people)
 
 ---
+---
+## 🚀 Features of the Web App
+
+- Upload any CSV dataset
+- Select your target column (`tip`, or any numerical value)
+- Automatically uses remaining columns as features
+- Categorical encoding with LabelEncoder
+- Feature scaling with StandardScaler
+- Linear Regression training and prediction
+- Evaluation metrics: R² Score and Mean Squared Error
+- Actual vs Predicted plot (matplotlib)
+
+---
+
+## ▶️ How to Run Locally
+
+### 🧩 Prerequisites
+
+Install Python and Streamlit:
+
+```
+pip install -r requirements.txt
+```
 
 ## 🔧 Features Used
 
@@ -111,3 +134,4 @@ This project is open-source and free to use under the MIT License.
 Made by **Kamyavardhan Dave**  
 Connect with me on [GitHub](https://github.com/theway-kamyavardhan) or [LinkedIn](https://www.linkedin.com/in/kamyavardhan)
 ```
+
